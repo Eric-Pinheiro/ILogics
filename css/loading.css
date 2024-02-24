@@ -1,0 +1,58 @@
+#anim {
+    display: flex;
+    background: linear-gradient(45deg, rgb(140, 0, 255), rgb(47, 0, 255), rgb(0, 162, 255));
+    z-index: 0.1;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    animation: fadein 2s forwards;
+    width: 100vw;
+    height: 100vh;
+}
+
+.loading {
+    width: 100px;
+    height: 10px;
+    animation: go 0.9s infinite alternate-reverse ease-in;
+    border-radius: 10px;
+    border: 5px solid rgb(255, 141, 240);
+    box-shadow: 10px 5px aqua;
+    z-index: 0.1;
+}
+
+.load {
+    animation: rot 1s infinite;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: 8px solid rgb(255, 148, 237);
+    border-top-color: rgb(0, 247, 255);
+    border-radius: 50%;
+}
+
+@keyframes go {
+    from {
+        transform: translateX(680px);
+    }
+    to {
+        transform: translateX(-680px);
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes rot {
+    to {
+        transform: rotate(1turn);
+    }
+}

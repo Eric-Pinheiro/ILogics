@@ -1,0 +1,51 @@
+ .ovideo {
+     margin-left: 0px auto;
+     margin-right: 0px auto;
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 40px;
+ }
+ 
+ .video {
+     margin-top: 15px;
+     height: 270px;
+     width: 550px;
+     animation: carsin 2.4s forwards;
+ }
+ 
+ @keyframes carsin {
+     0% {
+         opacity: 0;
+     }
+     90% {
+         opacity: 0;
+     }
+     100% {
+         opacity: 1;
+     }
+ }
+ 
+ #sobre {
+     text-align: center;
+     font-size: large;
+     font-family: 'roboto';
+     margin-top: 30px;
+ }
+ 
+ #assistir {
+     text-align: center;
+     font-size: large;
+     font-family: 'roboto';
+ }
+ 
+ #aj {
+     text-align: center;
+     font-size: large;
+     font-family: 'roboto';
+ }
+ 
+ #texto {
+     text-align: center;
+     font-size: large;
+     font-family: 'roboto';
+ }
